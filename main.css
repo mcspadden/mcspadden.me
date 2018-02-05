@@ -1,0 +1,93 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ }
+
+.content {
+    width: 1000px;
+    height: 600px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+    position:absolute;
+    top:50%;
+    left:50%;
+        
+    margin-left:-500px;/* half width*/
+    margin-top:-300px;/* half height*/
+    z-index: 1;
+}
+
+h1 {
+    font-size: 22px;
+    color: #86C232;
+    line-height: 20%;
+}
+
+h2 {
+    font-size: 84px;
+    color: white;
+    line-height: 10%;
+}
+
+.one {
+    font-size: 22px;
+    text-decoration:none;
+    color: #f2f2f2;
+    }
+
+.small {
+    text-align: right;
+    font-size: 18px;
+    color: white;
+}
+
+/*Keeps links black, see a:hover for color when hovering over link
+a:visited, a:link{
+  color:black;
+}
+/*Turns links blue once mouse is hovering*/
+ a:hover {
+    color: #86C232;
+ }
+ 
+ 
+ 
+ 
+.fa-github {
+  color: #61892F;
+}
+
+.fa-linkedin {
+  color: #61892F;
+}
+
+.fa-linux {
+  color: #61892F;
+}
+
+.fa-btc {
+  color: #61892F;
+}
+
+
+#particle-canvas {
+  width:100%;
+		height:100%;
+  z-index: 0;
+  }
+
+/*Creates line*/
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.1px;
+}
