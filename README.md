@@ -5,7 +5,7 @@ This is what runs my personal website. It's HTML/CSS/Javascript and something si
 # Canvas Particle Network
 You can find the awesome canvas particle network [here](https://github.com/JulianLaval/canvas-particle-network). 
 
-# Font Aweesome Icons
+# Font Awesome Icons
 
 # Google Fonts
 
