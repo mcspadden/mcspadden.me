@@ -5,9 +5,14 @@ This is what runs my personal website. It's HTML/CSS/Javascript and something si
 # Canvas Particle Network
 You can find the awesome canvas particle network [here](https://github.com/JulianLaval/canvas-particle-network). 
 
+# Font Aweesome Icons
+
+# Google Fonts
+
+
 # License
 
-I'm inspired by the world; so anything **I did here**, I want the world to be freely inspired by as well. For anything I did not create here (CPN as of now), refer to their respective license for use. 
+I'm inspired by the world; so anything **I did here**, I want the world to be freely inspired by as well. For anything I did not create here, refer to their respective license for use. 
 
 
 MIT License
