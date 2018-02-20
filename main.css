@@ -16,7 +16,7 @@ body {
     position:absolute;
     top:50%;
     left:50%;
-        
+
     margin-left:-500px;/* half width*/
     margin-top:-300px;/* half height*/
     z-index: 1;
@@ -44,7 +44,9 @@ h2 {
  a:hover {
     color: #86C232;
  }
- 
+ a {
+   outline: 0;
+ }
  /*Before Hover on FA Icons*/
 .fa_icons
 {
@@ -57,13 +59,13 @@ h2 {
     height: 10px;
     position: relative;
     -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
+    -webkit-transform: scale(1);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
+    -ms-transform: scale(1);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
-    transform: scale(1);   
+    transform: scale(1);
 
 }
 .fa_icons:hover
@@ -72,14 +74,14 @@ h2 {
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.8);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.8);   
+    -ms-transform: scale(1.8);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.8);
     transition: all 200ms ease-in;
     transform: scale(1.8);
 }
 
- 
+
 /* Styling for Font Awesome Icons */
 .fa-github {
   color: #61892F;
