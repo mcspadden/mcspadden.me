@@ -1,14 +1,8 @@
 # mcspadden.me
-This is what runs my personal website. It's HTML/CSS/Javascript and something simple to display a bit about me.
+This is what runs my personal website. It's something simple to display a bit about me.
 
-# Canvas Particle Network
-You can find the awesome canvas particle network [here](https://github.com/JulianLaval/canvas-particle-network).
-
-# Font Awesome Icons
-For the icons used, visit [Font Awesome](https://fontawesome.com/).
-
-# Google Fonts
-& [Google Fonts](https://fonts.google.com/) for the Roboto font used :)
+# UIKit
+This site utilizes UIKit, which can be found [here](https://getuikit.com/ "UIKit").
 
 # License
 I'm inspired by the world; so anything **I did here**, I want the world to be freely inspired by as well. For anything I did not create here, refer to their respective license for use.
