@@ -5,6 +5,7 @@
     <title>McSpadden</title>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="images/mcspaddenB.png">
+    <meta property="og:image" content="images/mcspaddenB.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
@@ -29,18 +30,27 @@
                   <img src="images/mcspadden.png" width="34" height="40" viewBox="0 0 34 40" xmlns="http://www.w3.org/2000/svg" ratio="1" class="uk-margin-small-right uk-svg">
                 </a>
               </div>
-              <div class="uk-navbar-right">
+              <div class="uk-navbar-right" a uk-scrollspy="cls: uk-animation-fade; target: > a > .test; delay: 500; repeat: true">
                 <ul class="uk-navbar-nav">
-                  <!--<li class=""><a href="pages/blog.html" target="_blank">Blog</a></li>-->
-                  <li><a href="https://github.com/mcspadden" target="_blank" <a href="https://github.com/mcspadden" target="_blank" uk-icon="icon: github" ></a></li>
-                  <li><a href="https://linkedin.com/in/matthew-mcspadden-599471141" target="_blank" uk-icon="icon: linkedin"></a></li>
-                  <li><a href="#modal-contact" uk-icon="icon: mail" uk-toggle></a></li>
+                	<div class="test">
+                   		<li>
+                   			<a href="https://github.com/mcspadden" target="_blank" uk-icon="icon: github">
+                   			</a>
+                   		</li>
+                	</div>
+                	<div class="test">
+                  		<li>
+                  			<a href="https://linkedin.com/in/matthew-mcspadden-599471141" target="_blank" uk-icon="icon: linkedin">
+                  			</a>
+                  		</li>
+                	</div>
+                	<div class="test">
+                  		<li>
+                  			<a class="test" href="#modal-contact" uk-icon="icon: mail">
+                  			</a>
+                  		</li>
+                	</div>
                 </ul>
-                <!--<div class="uk-navbar-item uk-visible@m">
-                  <a href="matthewmcspadden.pdf" class="uk-button uk-button-default tm-button-default uk-icon" target="_blank">Resume
-                    <canvas uk-icon="icon: copy" width="20" height="20" class="uk-icon" hidden="true"></canvas>
-                  </a>
-                </div>-->
               </div>
             </nav>
           </div>
@@ -50,21 +60,16 @@
         <div uk-height-viewport="offset-top: true; offset-bottom: true" class="uk-section uk-section-small uk-flex uk-flex-top uk-text-center" style="box-sizing: border-box; min-height: calc(-183px + 100vh); height: calc(-183px + 100vh);">
           <div class="uk-width-1-1">
             <div class="uk-container">
-              <p class="uk-animation-fade"><img src="images/mcspadden.png"></p> <p class="uk-margin-medium uk-text-lead uk-animation-fade">
-                DevOps Engineer<br class="uk-visible@s">
+              <p class="uk-animation-fade">
+              	<img src="images/mcspadden.png">
+              </p> 
+              <p class="uk-margin-medium uk-text-lead uk-animation-fade">
+                Software developer<br class="uk-visible@s">
                 interested in the challenges of making humans a multi-planetary species.
-              </p>
-              <!--<div uk-grid="" class="uk-child-width-auto uk-grid-medium uk-flex-inline uk-flex-center uk-grid">
-                <div class="uk-first-column">
-                  <a href="pages/portfolio.html" class="uk-button uk-button-primary tm-button-primary uk-button-large tm-button-large uk-visible@s">Portfolio</a>
-                  <a href="pages/portfolio.html" class="uk-button uk-button-primary tm-button-primary uk-hidden@s">Portfolio</a>
-                </div>
-                <div>
-                  <a href="pages/contact.html" class="uk-button uk-button-default tm-button-default uk-button-large tm-button-large uk-visible@s">Contact</a>
-                  <a href="pages/contact.html" class="uk-button uk-button-default tm-button-default uk-hidden@s">Contact</a>
-                </div>-->
-              </div>
-            </div>
+              </p>                
+             </div>
+
+           </div>
           </div>
         </div>
         
@@ -77,28 +82,7 @@
           <hr>
       </div>
     </div>
-
-        <!--<div class="uk-section-small uk-padding-small">
-          <div class="uk-container uk-container-expand uk-text-center uk-position-relative">
-            <ul uk-margin="" class="uk-subnav tm-subnav uk-flex-inline uk-flex-center">
-              <!--<li class="uk-first-column">
-                <a href="pages/blog.html" target="_blank"><span uk-icon="icon: bookmark" class="uk-margin-small-right uk-icon"></span>
-                Blog</a></span>
-              </li>
-              <li class="uk-first-column">
-                <a href="https://github.com/mcspadden" target="_blank">
-                  <span uk-icon="icon: github" class="uk-margin-small-right uk-icon"></span>Github</a>
-                </li>
-              <li>
-                <a href="https://linkedin.com/in/matthew-mcspadden-599471141" target="_blank"><span uk-icon="icon: linkedin" class="uk-margin-small-right uk-icon">
-                </span>Linkedin</a>
-              </li>
-            </ul>
-            <div class="uk-panel">
-              <p>Hosted on <a href="https://pages.github.com/" target="_blank">Github Pages</a>. Licensed under the <a href="https://github.com/mcspadden/mcspadden.me/blob/master/LICENSE" target="_blank">MIT license</a>.</p>
-            </div>
-          </div>
-        </div>-->
+    
       </div>
     </div>
   </body>
